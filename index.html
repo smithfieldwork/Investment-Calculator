@@ -22,34 +22,16 @@
 
       <label for="amount">Amount:</label>
       <input type="text" id="amount" name="amount" />
+
+      <label for="time">Time:</label>
+      <input type="text" id="time" name="time" />
+
+      <label for="AER">AER:</label>
+      <input type="text" id="AER" name="AER" />
+
+      <button type="button" id="submit">Submit</button>
+      <button type="button" id="calculate">Calculate!</button>
     </form>
-
-    <script>
-      document
-        .getElementById("Monthly")
-        .addEventListener("change", function () {
-          if (this.checked) {
-            console.log("Monthly selected");
-          }
-        });
-
-      document.getElementById("Yearly").addEventListener("change", function () {
-        if (this.checked) {
-          console.log("Yearly selected");
-        }
-        //Female radio button is checked
-      });
-
-      /*
-              var x = document.getElementById("myRadio").value;
-              alert("The value of the radio button is: " + x);
-            }
-
-            function change() {
-              var x = (document.getElementById("myRadio").value = "newRadioBtnValue");
-              alert("The value was changed to: " + x);
-            }
-      */
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
